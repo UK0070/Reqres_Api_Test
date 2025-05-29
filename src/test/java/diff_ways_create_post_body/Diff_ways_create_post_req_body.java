@@ -22,7 +22,9 @@ import static org.hamcrest.Matchers.*;
 2. Post request body using org,Json
 3. Post request body using POJO Class
 4. Post request body using external json file data*/
-
+//NOTE---->HERE IN ALL DIFFERENT WAY OUR ULTIMATE GOAL IS TO SEND REQUEST DATA IN JSON FORMAT BECAUSE REST API
+//          SUPPORT JSON TYPE OF DATA SO IN EVERY TPYE WE SPECIFY JSON TYPE OF DATA IN CONTENT TYPE WHICH WILL
+//          AUTOMATICALLY CONVERT DATA IN ANY FORM TO JASON DATA TYPE
 @Slf4j
 public class Diff_ways_create_post_req_body
 {
